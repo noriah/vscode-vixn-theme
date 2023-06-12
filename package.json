@@ -17,8 +17,11 @@
     "url": "https://github.com/noriah/vscode-theme-vixn"
   },
   "engines": {
-    "vscode": "^1.0.0"
+    "vscode": "^1.10.0"
   },
+  "categories": [
+    "Themes"
+  ],
   "contributes": {
     "themes": [
       {
