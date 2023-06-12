@@ -1,0 +1,31 @@
+{
+  "name": "theme-vixn",
+  "displayName": "VixN Themes",
+  "version": "1.0.0",
+  "publisher": "noriah",
+  "description": "VixN VSCode Themes",
+  "author": {
+    "name": "noriah vix"
+  },
+  "license": "MIT",
+  "galleryBanner": {
+    "color": "#e57373",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noriah/vscode-theme-vixn"
+  },
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "vixn dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vixn-dark.json"
+      }
+    ]
+  }
+}
