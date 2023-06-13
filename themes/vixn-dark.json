@@ -7,36 +7,51 @@
     "string": "#e6db74ff",
     "escapeSequence": "#eeffffff",
     "boolean": "#a171d0ff",
+    "variable.readonly.defaultLibrary:go": "#a171d0ff",
     "number": "#f78c6cff",
     "variable": "#eeffffff",
-    "variable.declaration": "#ff9615ff",
+    "variable.readonly": "#ff9277ff",
+    "variable.declaration": "#fd8b10ff",
+    "variable.definition": "#fd8b10ff",
     "parameter": "#eeffffff",
-    "parameter.declaration": "#ff9615ff",
+    "parameter.declaration": "#fd8b10ff",
+    "parameter.definition": "#fd8b10ff",
     "property": "#eeffffff",
     "property.static": "#ff9277ff",
-    "property.declaration": "#ff9615ff",
+    "property.declaration": "#fd8b10ff",
+    "property.definition": "#fd8b10ff",
     "selfKeyword": "#ff8581ff",
+    "selfParameter": "#ff8581ff",
     "keyword": {
-      "foreground": "#ff5b56ff",
+      "foreground": "#fa504aff",
+      "italic": true
+    },
+    "operator": "#fa4943ff",
+    "function": "#6babf5ff",
+    "function.builtin": {
+      "foreground": "#82aaffff",
       "italic": true
     },
     "function.defaultLibrary": {
       "foreground": "#82aaffff",
       "italic": true
     },
-    "function": "#6babf5ff",
     "function.declaration": "#9ce750ff",
+    "function.definition": "#9ce750ff",
     "method": "#6babf5ff",
     "method.declaration": "#9ce750ff",
+    "method.definition": "#9ce750ff",
     "macro": "#6bd5f5ff",
     "macro.declaration": "#30fc6dff",
-    "namespace": "#eeffffff",
-    "type": "#fdc867ff",
-    "type.defaultLibrary": "#e799ffff",
+    "macro.definition": "#30fc6dff",
+    "namespace": "#50e79cff",
     "struct": "#f07a7aff",
+    "type": "#fdc867ff",
+    "type:go": "#e799ffff",
+    "type.defaultLibrary": "#de75feff",
     "typeParameter": "#e799ffff",
     "class": "#e799ffff",
-    "class.defaultLibrary": "#dc6bffff",
+    "class.defaultLibrary": "#de75feff",
     "enum": "#74ffdcff"
   },
   "tokenColors": [
@@ -96,10 +111,20 @@
     {
       "name": "Double Quoted Strings",
       "scope": [
-        "string.quoted.double"
+        "string.quoted.double",
+        "string.quoted.raw"
       ],
       "settings": {
         "foreground": "#e6db74ff"
+      }
+    },
+    {
+      "name": "String Placeholder",
+      "scope": [
+        "constant.other.placeholder"
+      ],
+      "settings": {
+        "foreground": "#eeffffff"
       }
     },
     {
@@ -186,7 +211,7 @@
         "variable.other.definition"
       ],
       "settings": {
-        "foreground": "#ff9615ff"
+        "foreground": "#fd8b10ff"
       }
     },
     {
@@ -204,10 +229,11 @@
         "keyword",
         "keyword.other storage.type",
         "modifier",
+        "source.python storage.type",
         "support.type.object"
       ],
       "settings": {
-        "foreground": "#ff5b56ff",
+        "foreground": "#fa504aff",
         "fontStyle": "italic"
       }
     },
@@ -270,9 +296,8 @@
       }
     },
     {
-      "name": "Storage Type",
+      "name": "Entity Name Type",
       "scope": [
-        "storage.type",
         "entity.name.type"
       ],
       "settings": {
@@ -420,7 +445,6 @@
     {
       "name": "Builtin Function Calls",
       "scope": [
-        "support.function",
         "support.function.builtin"
       ],
       "settings": {
@@ -718,15 +742,6 @@
       ],
       "settings": {
         "foreground": "#eeffffff"
-      }
-    },
-    {
-      "name": "Member Access Meta",
-      "scope": [
-        "source.python meta.member.access.python"
-      ],
-      "settings": {
-        "foreground": "#f07178ff"
       }
     },
     {
