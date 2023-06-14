@@ -1,7 +1,7 @@
 {
-  "name": "theme-vixn",
+  "name": "vixn-theme",
   "displayName": "VixN Themes",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "publisher": "noriah",
   "description": "VixN VSCode Themes",
   "author": {
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/noriah/vscode-theme-vixn"
+    "url": "https://github.com/noriah/vscode-vixn-theme"
   },
   "engines": {
     "vscode": "^1.10.0"
