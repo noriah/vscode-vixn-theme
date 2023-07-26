@@ -205,7 +205,7 @@
       }
     },
     {
-      "name": "Variable Declaration",
+      "name": "Variable/Parameter/Property Declaration",
       "scope": [
         "variable.parameter",
         "variable.other.definition"
@@ -390,6 +390,8 @@
         "entity.name.type.class",
         "support.type",
         "support.class",
+        "source.java storage.type",
+        "storage.type.java",
         "meta.use",
         "meta.class.identifier storage.type"
       ],
@@ -411,7 +413,8 @@
       "name": "Class Method Declaration",
       "scope": [
         "meta.definition.method entity.name.function",
-        "meta.method.identifier entity.name.function"
+        "meta.method.identifier entity.name.function",
+        "meta.function entity.name.function"
       ],
       "settings": {
         "foreground": "#9ce750ff"
@@ -433,9 +436,9 @@
         "entity.name.function.call",
         "meta.function.call entity.name.function",
         "meta.function-call entity.name.function",
+        "meta.function-call.generic",
         "meta.method-call entity.name.function",
         "meta.method-call meta.method",
-        "source.python meta.function-call.python",
         "support.function.go"
       ],
       "settings": {
@@ -765,7 +768,7 @@
       }
     },
     {
-      "name": "JSON Key - Level 0",
+      "name": "Key - Level 0",
       "scope": [
         "meta.structure.dictionary.json support.type.property-name.json"
       ],
