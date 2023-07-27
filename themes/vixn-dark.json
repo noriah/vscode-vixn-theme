@@ -50,6 +50,7 @@
     "type:go": "#e799ffff",
     "type.defaultLibrary": "#de75feff",
     "typeParameter": "#e799ffff",
+    "annotation": "#c3ff9cff",
     "class": "#e799ffff",
     "class.defaultLibrary": "#de75feff",
     "enum": "#74ffdcff"
