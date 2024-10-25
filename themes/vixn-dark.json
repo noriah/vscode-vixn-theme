@@ -327,7 +327,8 @@
     {
       "name": "Package",
       "scope": [
-        "storage.modifier.package"
+        "storage.modifier.package",
+        "entity.name.type.package"
       ],
       "settings": {
         "foreground": "#ffb688ff"
@@ -436,12 +437,12 @@
       "name": "Function/Method Call",
       "scope": [
         "entity.name.function.call",
+        "entity.name.function.support",
         "meta.function.call entity.name.function",
         "meta.function-call entity.name.function",
         "meta.function-call.generic",
         "meta.method-call entity.name.function",
-        "meta.method-call meta.method",
-        "support.function.go"
+        "meta.method-call meta.method"
       ],
       "settings": {
         "foreground": "#6babf5ff"
@@ -450,7 +451,7 @@
     {
       "name": "Builtin Function Calls",
       "scope": [
-        "support.function.builtin"
+        "entity.name.function.support.builtin"
       ],
       "settings": {
         "foreground": "#82aaffff",
